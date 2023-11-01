@@ -1,0 +1,16 @@
+{
+  "name": "teste_automate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "post-create-user-test.js",
+  "scripts": {
+    "test": "npx mocha Teste --timeout=3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "mocha": "^10.2.0",
+    "pactum": "^3.5.1"
+  }
+}
